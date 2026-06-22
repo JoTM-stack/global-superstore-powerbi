@@ -72,6 +72,10 @@ The SQL scripts used to create and prepare the database can be found in:
 
 The database structure was then connected to Power BI for reporting and analysis.
 
+### Database Preview
+
+![Database Preview](docs/DbPreview.png)
+
 ---
 
 ## Data Model
