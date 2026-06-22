@@ -27,7 +27,8 @@ The objective is to determine which business areas should be expanded, targeted,
 The dashboard was developed based on the business requirements outlined in the project scenario document.
 
 📄 Scenario Document:
-[SuperstoreDoc.pdf](docs/SuperstoreDoc.pdf)
+[SuperstoreDoc.pdf](SuperstoreDoc.pdf)
+
 
 The objective was to analyze products, customers, regions, and discount performance to identify growth opportunities and profitability risks.
 
