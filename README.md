@@ -23,6 +23,17 @@ The objective is to determine which business areas should be expanded, targeted,
 
 ---
 
+## Business Scenario
+
+The dashboard was developed based on the business requirements outlined in the project scenario document.
+
+📄 Scenario Document:
+[SuperstoreDoc.pdf](docs/SuperstoreDoc.pdf)
+
+The objective was to analyze products, customers, regions, and discount performance to identify growth opportunities and profitability risks.
+
+---
+
 ## Dataset
 
 **Source:** Global Superstore Dataset
@@ -46,6 +57,20 @@ The objective is to determine which business areas should be expanded, targeted,
 - SQL
 - Data Modeling
 - Data Visualization
+
+---
+
+## Database Design
+
+The source data was stored in PostgreSQL and organized using a dimensional model to support analytical reporting.
+
+### SQL Queries
+
+The SQL scripts used to create and prepare the database can be found in:
+
+- [db_setup.sql](SQL/db_setup.sql)
+
+The database structure was then connected to Power BI for reporting and analysis.
 
 ---
 
@@ -195,6 +220,3 @@ global-superstore-powerbi/
 ## Author
 
 Joseph M. Tsie
-
-- GitHub: https://github.com/JotM-stack
-- LinkedIn: https://www.linkedin.com/in/joseph-tsie-7b507321a/
