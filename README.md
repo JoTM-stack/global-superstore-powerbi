@@ -1,7 +1,6 @@
 # Global Superstore Sales Performance Dashboard
 
-Business Intelligence dashboard developed using PostgreSQL and Power BI to analyze sales, profitability, customer segments, regional performance, and discount impact.
-
+Business Intelligence dashboard built with PostgreSQL, Power BI, and DAX to analyze sales, profitability, customer segments, regional performance, and discount impact using the Global Superstore dataset.
 ---
 
 ## Overview
