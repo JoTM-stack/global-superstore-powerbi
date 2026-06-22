@@ -59,8 +59,18 @@ The objective was to analyze products, customers, regions, and discount performa
 - Data Visualization
 
 ---
+## Project Workflow
+
+1. Imported the Global Superstore dataset into PostgreSQL.
+2. Designed a dimensional model using fact and dimension tables.
+3. Connected Power BI to PostgreSQL.
+4. Created DAX measures and KPIs.
+5. Built interactive dashboards and visualizations.
+6. Generated business insights and recommendations.
 
 ## Database Design
+
+---
 
 The source data was stored in PostgreSQL and organized using a dimensional model to support analytical reporting.
 
