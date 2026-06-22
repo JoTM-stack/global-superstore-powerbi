@@ -1,92 +1,200 @@
-# global-superstore-powerbi
-Business Intelligence dashboard built with MySQL, Power BI, and DAX to analyze sales, profitability, customer segments, regional performance, and discount impact using the Global Superstore dataset.
+# Global Superstore Sales Performance Dashboard
 
-The dashboard analyzes:
+Business Intelligence dashboard developed using PostgreSQL and Power BI to analyze sales, profitability, customer segments, regional performance, and discount impact.
 
-Sales performance
-Profitability
-Product categories
-Customer segments
-Regional performance
-Discount impact
+---
 
-The goal is to identify growth opportunities and profitability risks through interactive reporting and data visualization.
+## Overview
 
-Business Objective
+This project demonstrates how transactional retail data can be transformed into actionable business insights through dimensional modeling, DAX calculations, KPI reporting, and interactive dashboards.
 
-Analyze products, customers, regions, and discount impact to identify growth opportunities and profitability risks.
+---
 
-Business Questions
-Which categories generate the most profit?
-Which products should be prioritized?
-Which customer segments generate the highest value?
-Which regions deserve additional investment?
-How do discounts impact profitability?
-Technology Stack
-PostgreSQL
-Power BI
-DAX
-Data Modeling
-Data Visualization
-Dataset
+## Business Problem
 
-Global Superstore Dataset
+A Superstore retailer seeks to identify:
 
-Source:
-Kaggle Global Superstore Dataset
+- High-performing products
+- Profitable customer segments
+- Strong and weak regions
+- The impact of discounts on profitability
 
-Data Model
+The objective is to determine which business areas should be expanded, targeted, or reviewed.
 
-The project uses a Star Schema design.
+---
 
-Fact Table
-fact_sales
-Dimension Tables
-dim_customer
-dim_product
-dim_location
-dim_date
+## Dataset
 
-Include your images from the docs folder here.
+**Source:** Global Superstore Dataset
 
-Dashboard Pages
-Executive Overview
+**Records:** 25,000+
 
-KPIs:
+**Key Metrics:**
 
-Total Orders
-Total Sales
-Total Profit
-Profit Margin
-Category & Product Analysis
+- Sales: $12.64M
+- Profit: $1.47M
+- Orders: 25.04K
+- Profit Margin: 11.62%
 
-Insights:
+---
 
-Technology is the most profitable category.
-Tables generate negative profit.
-Customer Segment Analysis
+## Technology Stack
 
-Insights:
+- PostgreSQL
+- Power BI
+- DAX
+- SQL
+- Data Modeling
+- Data Visualization
 
-Consumer segment contributes the highest sales and profit.
-Regional Analysis
+---
 
-Insights:
+## Data Model
 
-Central region generates the highest profit.
-Discount & Profitability Analysis
+The project follows a Star Schema design.
 
-Insights:
+### Model Overview
 
-Higher discounts do not always increase profitability.
-Several products generate losses despite strong sales.
-Key Skills Demonstrated
-SQL
-PostgreSQL
-Star Schema Modeling
-Power BI
-DAX Measures
-KPI Reporting
-Data Visualization
-Business Intelligence
-Analytical Thinking
+![Data Model](docs/Data.png)
+
+### Customer Dimension
+
+![Customer Dimension](docs/dim_customer.png)
+
+### Product Dimension
+
+![Product Dimension](docs/dim_product.png)
+
+### Location Dimension
+
+![Location Dimension](docs/dim_location.png)
+
+### Date Dimension
+
+![Date Dimension](docs/dim_date.png)
+
+---
+
+## Dashboard Pages
+
+### Executive Overview
+
+Provides high-level business KPIs and performance trends.
+
+![Executive Overview](screenshots/executive_overview.png)
+
+---
+
+### Category & Product Analysis
+
+Analyzes product categories, sub-categories, and top-performing products.
+
+![Category & Product Analysis](screenshots/category_product_analysis.png)
+
+**Key Findings**
+
+- Technology is the most profitable category.
+- Copiers generate the highest profit.
+- Tables generate negative profit.
+
+---
+
+### Customer Segment Analysis
+
+Analyzes customer performance by segment.
+
+![Customer Segment Analysis](screenshots/customer_segment_analysis.png)
+
+**Key Findings**
+
+- Consumer customers generate the highest sales.
+- Home Office customers contribute the lowest revenue.
+
+---
+
+### Regional Analysis
+
+Analyzes sales and profit performance across regions.
+
+![Regional Analysis](screenshots/regional_analysis.png)
+
+**Key Findings**
+
+- Central region generates the highest profit.
+- Several regions generate strong sales but lower profitability.
+
+---
+
+### Discount & Profitability Analysis
+
+Evaluates the relationship between discounting and profitability.
+
+![Discount & Profitability Analysis](screenshots/discount_profitability_analysis.png)
+
+**Key Findings**
+
+- Higher discounts do not always increase profitability.
+- Several products generate losses despite strong sales.
+
+---
+
+## Key Insights
+
+- Technology is the most profitable category.
+- Consumer customers drive the largest share of revenue.
+- Central region generates the highest profit.
+- Furniture receives the highest average discount.
+- Discounting does not consistently improve profitability.
+
+---
+
+## Repository Structure
+
+```text
+global-superstore-powerbi/
+│
+├── dataset/
+│   └── superstore.csv
+│
+├── docs/
+│   ├── Data.png
+│   ├── dim_customer.png
+│   ├── dim_product.png
+│   ├── dim_location.png
+│   └── dim_date.png
+│
+├── screenshots/
+│   ├── executive_overview.png
+│   ├── category_product_analysis.png
+│   ├── customer_segment_analysis.png
+│   ├── regional_analysis.png
+│   └── discount_profitability_analysis.png
+│
+├── SQL/
+│   └── db_setup.sql
+│
+└── superstore.pbix
+```
+
+---
+
+## Skills Demonstrated
+
+- SQL Querying
+- PostgreSQL
+- Star Schema Design
+- Power BI
+- DAX Measures
+- KPI Reporting
+- Dashboard Development
+- Business Intelligence
+- Data Analytics
+
+---
+
+## Author
+
+Joseph M. Tsie
+
+- GitHub: https://github.com/JotM-stack
+- LinkedIn: https://www.linkedin.com/in/joseph-tsie-7b507321a/
